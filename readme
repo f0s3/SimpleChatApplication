@@ -1,0 +1,22 @@
+How to use this little console chat application:
+
+<!All commands are in brackets("")! You aren't supposed to put the brackets into cmd or terminal!>
+<!Server and every client need to use same port!>
+
+Prerequisites:
+1)You need to have Java installed on your device.(http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+Usage:
+Server side:
+1)Launch the server.
+    Open cmd or terminal and type "java Server [port number]".
+    If you haven't put the port number("java Server"), it will run on port 1500 by default.
+
+Client side(server side can also do this step if you want to be a client and a server simultaneously):
+1)Launch the client.
+    Open cmd or terminal and type "java Client [username] [port number] [server address]".
+    Default values(if you used only "java Client") are: java Client Anonymous 1500 localhost.
+
+Additional client options:
+    LOGOUT - end session
+    WHOISIN - shows all online users
